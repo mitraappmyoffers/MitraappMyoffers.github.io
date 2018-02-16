@@ -200,11 +200,11 @@ font-weight:500;
 }
   .language {
 
-    font-size: 16px;
-    color: #ffffff;
- width: 100%;
- padding-top: 5px;
-  padding-bottom: 5px;
+   font-size: 18px;
+color: #ffffff;
+width: 100%;
+padding-top: 7px;
+padding-bottom: 7px;
 margin: 0 auto;
 text-align: center;
 background: gray ;
