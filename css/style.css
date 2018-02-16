@@ -536,8 +536,8 @@ width:15%;
     top: -11px;
     font-size: 9px;
     float: left;
-	margin-top:0;
-	margin-left:4px;
+	margin-top:4px;
+	margin-left:0px;
 }
 .hindi
 {
@@ -547,7 +547,7 @@ width:15%;
     font-size: 11px;
     float: left;
   margin-top:0;
-  margin-left: 15px;
+  margin-left: 0px;
 }
 
 .line10
