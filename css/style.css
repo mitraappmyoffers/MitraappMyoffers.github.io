@@ -22,7 +22,7 @@ background: #dcdcdc;
 }
 
 .container {
-    padding: 33px 0 2px 0;
+    padding: 0px 0 2px 0;
 }
 
 .col-1 {
@@ -112,43 +112,20 @@ text-indent:-15px;
 	display: none;
 	
 }
-.dropdown
-{
-	position: relative;
-	width: 100%;
-}
-.dropdown div
-{
-	float: right;
-}
-.dropdown p {
-    display: inline-block;
-    font-weight: bold;
-    font-size: 12px;
-    padding: 2px;
-    padding-right: 2px;
-}
+.language {
 
-.dropdown select {
+   font-size: 18px;
+color: #ffffff;
+width: 100%;
+padding-top: 10px;
+padding-bottom: 10px;
+margin: 0 auto;
+text-align: center;
+background: gray ;
+    
+    }
 
-      border: 0 !important;  /*Removes border*/
-      -webkit-appearance: none;  /*Removes default chrome and safari style*/
-      -moz-appearance: none; /* Removes Default Firefox style*/
-      background: url('../dropdown_arrow.png') no-repeat;  /*Adds background-image*/
-      background-position: 51px 6px;  /*Position of the background-image*/
-      width: 77px; /*Width of select dropdown to give space for arrow image*/
-      height: 20px;/*fix for mac input height*/
-      text-indent: 0.01px; /* Removes default arrow from firefox*/
-      text-overflow: "";  /*Removes default arrow from firefox*/
-      cursor: pointer;
-      /*My custom style for fonts*/
-      font-size: 12px;
-      color: #1455a2;
-  
-}
-select option {
-  text-align: center;
-}
+
 
 @media (min-width: 768px) {
 
