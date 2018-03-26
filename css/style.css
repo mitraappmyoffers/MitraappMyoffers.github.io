@@ -96,8 +96,11 @@ ul li
 }
   #tableStyle
   {
-    width:100%;
+    width:96%;
+    text-align: center;
     background: #ffffff;
+    margin: 0 auto;
+    padding: 2px;
   }
 
 #tableStyle th
