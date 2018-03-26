@@ -1,0 +1,153 @@
+
+ <!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+    <meta http-equiv="Content-Language" content="hi" />
+<head>
+
+<title>My Training</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+<div id="wrapper">
+   <div class="language">Language (भाषा)
+<select id="lang_list" onchange="datalist();">
+  <option selected>English</option>
+  <option>हिंदी</option>
+</select>
+      </div>
+
+<div class="container" id="english">
+<div class="col-1">
+<h5>Base Commission</h5>
+<table id="tableStyle" width="100%" border="0" cellpadding="0" cellspacing="0">
+  <thead><th>Item</th>
+<th>Commission
+  </th></thead>
+
+<tbody>
+<!-- <tr>
+    <td><b>Account Opening</b></td>
+    <td><b>Rs. 30</b> per Account with <img src="rs.png"><b>100</b> FCI
+<br>
+<b>Rs. 10</b> per Account with <img src="rs.png"><b>10 to 90</b> FCI
+</td>
+  </tr>  -->
+
+  <tr>
+    <td><b>Cash Deposit</b></td>
+    <td><b>0.15% </b>on Transaction Amount</td>
+  </tr>
+  <tr>
+    <td><b>Cash Withdrawal</b></td>
+    <td><b>0.15% </b>on Transaction Amount</td>
+  </tr>
+<tr>
+    <td><b>Send Money on Mitra App</b> <span style="color:#f00;">*</span></td>
+    <td>Customer charge <b>0.5%</b> & Retailer Commission <b>0.07%</b> on every Rs. 1000 slab</td>
+  </tr>
+</tbody>
+</table>
+
+</div>
+
+<div class="col-2">
+<h5>Promotional Commission</h5>
+
+<h3>Cash Withdrawal</h3>
+<ul>
+ <li>Earn <b>Rs. 15</b> for every unique customer cash withdrawal over and above of <B>0.15%</B></li>
+
+<li>Min transaction amount is <b>Rs. 100</b></li>
+<li>Same day FCI/FCW & cash deposit/withdrawal not included</li>
+<li>FCI is First Cash In and FCW is First Cash Withdrawal</li>
+
+</ul>
+
+
+
+
+
+<h3>Utility (Electricity & Gas) Payment <!-- <img src="new.gif" height=15 width=30>  --></h3>
+<ul>
+ <li>Utility Payment option is <b>LIVE</b> on Mitra App, Pay Electricity & Gas Bill Payment for your customers.</li>
+
+<h2>Commission :  Per Bill Scheme</h2>
+
+ <li><b>Earn Rs 10</b> on first Bill Payment every day.</li>
+ <li><b>Earn Rs 5</b> per bill on 5 & above 5 Bill Payments.</li>
+ <li><b>Earn Rs 10</b> per bill on 10 & above 10 Bill Payments.</li>
+
+<h2>Commission : Throughput Scheme</h2>
+
+ <li><b>Earn 0.25%</b> on <b>Rs10000</b> & above Bill Amount in a month.</li>
+ <li><b>Earn 0.5%</b> on <b>Rs50000</b> & above Bill Amount in a month.</li>
+</ul>
+<center><b>Scheme applicable from 1st Feb to 31st March,18</b></center><br>
+
+
+
+
+
+
+<h3>Terms & Conditions</h3>
+<ul>
+ <li>Earned commission will be added in retailer balance only.</li>
+
+<li><b>Payout Cycle: Base Commission: Next Day (T+1), Promotional Commission: Every month of 7th</b></li>
+<li>If retailer PAN is updated, <b>5%</b> & if not updated <b>20%</b> tax will be deducted as per regulations</li>
+<li>System generated data will consider as final for commission</li>
+</ul>
+
+
+<h3>Customer Offers</h3>
+<ul>
+
+<li>
+<b>One Cash Withdrawal Free</b> for every customer in a month to the limit of <b>Rs 2000</b>
+</li>
+
+<li>
+  <b>Customer electricity bill pay is now very easy.</b> Ask customer to dial <b>*700#</b>
+</li>
+ 
+</ul>
+<br>
+<center><b> <font color="green">Above offers are applicable for the month of Feb, 2018</font></b>
+</center>
+
+
+</div>
+</div>
+</div>
+
+
+
+
+<script type="text/javascript">
+  function datalist()
+  {
+  var e = document.getElementById("lang_list");
+
+var text = e.options[e.selectedIndex].text;
+
+
+if(text == "English")
+{
+  document.getElementById('english').style.display="block";
+  document.getElementById('hindi').style.display="none";
+}
+else
+{
+  document.getElementById('english').style.display="none";
+  document.getElementById('hindi').style.display="block"; 
+}
+
+}
+
+
+</script>
+</body>
+</html>
