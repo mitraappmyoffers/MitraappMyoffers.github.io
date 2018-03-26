@@ -55,7 +55,7 @@ h2
 h5
   {
       width: 100%;
-      background:#e91e21;
+      background:#a0a0a0;
       margin:0;
       padding: 0;
       text-align: center;
@@ -72,9 +72,9 @@ h3
    -webkit-border-top-right-radius: 12px; 
   -moz-border-top-right-radius: 12px; 
   border-bottom-right-radius: 12px; 
-  background-color: #e4e4e4;
+  background-color: #e91e21;
   line-height: 32px;
-  color: #000000;
+  color: #ffffff;
   font-size: 14px;
   padding:0;
   margin-bottom: 0;
@@ -103,9 +103,10 @@ ul li
 #tableStyle th
   {
     padding: 10px;
-    background:#e8e8e8;
+    background:#f8f8f8;
     color: #6a6a6a;
-    font-weight: bold;    
+    font-weight: bold;  
+    border: 1px solid #d3d3d3;  
   }
   #tableStyle tr
   {
