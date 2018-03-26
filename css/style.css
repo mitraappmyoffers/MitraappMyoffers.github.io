@@ -99,8 +99,9 @@ ul li
     width:96%;
     text-align: center;
     background: #ffffff;
+    margin:2px;
     margin: 0 auto;
-    padding: 2px;
+    padding: 0px;
   }
 
 #tableStyle th
