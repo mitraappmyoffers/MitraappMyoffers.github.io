@@ -89,6 +89,10 @@ margin: 0px;
 
 
 }
+#hindi
+{
+  display: none;
+}
 ul li
 {
   line-height: 25px;
