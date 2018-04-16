@@ -105,7 +105,7 @@ ul li
   line-height: 25px;
   padding-left: 2px;
 }
-  #tableStyle
+  .tableStyle
   {
     width:96%;
     text-align: center;
@@ -115,7 +115,7 @@ ul li
     padding: 0px;
   }
 
-#tableStyle th
+.tableStyle th
   {
     padding: 10px;
     background:#f8f8f8;
@@ -123,7 +123,7 @@ ul li
     font-weight: bold;  
     border: 1px solid #d3d3d3;  
   }
-  #tableStyle tr
+  .tableStyle tr
   {
     padding: 10px;
     
@@ -131,7 +131,7 @@ ul li
     color: #6a6a6a;
       
   }
-   #tableStyle tr td
+   .tableStyle tr td
   {
       border:1px solid #d3d3d3;
     padding: 10px;
