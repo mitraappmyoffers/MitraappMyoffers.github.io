@@ -142,6 +142,20 @@ ul li
       border:1px solid #d3d3d3;
     padding: 10px;
   }
+  .content{
+        border: 1px solid gainsboro;
+  }
+
+
+  .backimage{
+      width: 36px;
+   
+}
+.backbutton{
+   float: left;
+    margin-left: 5px;
+    margin-top: -5px;
+}
 @media (min-width: 768px) {
 
 #wrapper{
