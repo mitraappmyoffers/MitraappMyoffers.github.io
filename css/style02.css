@@ -29,7 +29,7 @@ body {
 
 .boxContainer img {
 	    height: 100%;
-    width: 270px;
+    width: 320px;
     margin-top: 1em;
 }
 
@@ -47,7 +47,7 @@ body {
     background-color: #BC1313;
     color: white;
     padding: 16px;
-    font-size: 14px;
+    font-size: 16px;
     border: 2px solid;
     cursor: pointer;
 }
@@ -55,14 +55,15 @@ body {
 .dropdown {
     position: relative;
     display: inline-block;
-    margin-top: 12px;
+    margin-top: -16px;
+   
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 142px!important;
+    min-width: 155px!important;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 
@@ -75,7 +76,6 @@ body {
     display: block;
     padding-bottom:5px;
 	padding-top:5px;
-	font-size:14px;
 
 }
 
@@ -108,64 +108,8 @@ body {
     overflow-x: hidden;
 }
 
-#wrapper
-{
-  width: 325px;
-margin: 0 auto;
-margin-top:1em;
-}
-
-  .language {
-
-   font-size: 18px;
-color: #ffffff;
-width: 100%;
-padding-top: 10px;
-padding-bottom: 10px;
-margin: 0 auto;
-text-align: center;
-background: gray ;
-    
-    }
-
-.tab {
-    overflow: hidden;
-   
-    background-color: #bc1313;
-    color: #ffffff;
-}
-
-.tab button {
-    background-color: inherit;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 16px 13px;
-    transition: 0.3s;
-    font-size: 12px;
-    color: #ffffff;
-    font-weight: 600;
-}
-
-
-.tab button:hover {
-    background-color: #9a0000;
-    color: white
-}
-
-.tab button.active {
-    background-color: white;
-    color: #bc1313;
-}
-
-
-.tabcontent {
-    display: none;
-    padding: 6px 12px;
-    
-    border-top: none;
-   
+.section{
+    margin-top: 30px;
 }
 
 @media screen and (max-width: 479px){
